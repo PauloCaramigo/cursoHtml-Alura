@@ -2,6 +2,11 @@
 	width:100%;
 }
 
+.conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
 .principal{
 	background: #CCCCCC;
 	padding: 30px;
@@ -12,7 +17,10 @@
 }
 
 .titulo-centralizado {
-	text-align: center
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 p {
@@ -28,12 +36,14 @@ em strong {
 }
 
 .itens {
-	font-style: italic
+	font-style: italic;
 }
 
 .beneficios {
 	background: #FFFFFF;
+	width: 940px;
 	padding: 20px;
+	margin: 0 auto;
 }
 
 .beneficios ul {
