@@ -13,7 +13,7 @@
 	<body>
 		<header>
             <div class="caixa">
-                <h1><img src="../imagens/logo.png"></h1>
+                <h1><img src="../imagens/logo.png" alt="Logo da Barbearia Alura"></h1>
 
                 <nav>
                     <ul>
@@ -28,38 +28,38 @@
         <main>
             <form>
                 <label for="nomeSobrenome">Nome e sobrenome</label>
-                <input type="text" id="nomeSobrenome" class="inputPadrao">
+                <input type="text" id="nomeSobrenome" class="inputPadrao" required placeholder="Ex: João Gomes">
 
                 <label for="email">Email</label>
-                <input type="text" id="email" class="inputPadrao">
+                <input type="email" id="email" class="inputPadrao" required placeholder="Ex: seuemail@dominio.com">
 
                 <label for="telefone">Telefone</label>
-                <input type="text" id="telefone" class="inputPadrao">
+                <input type="tel" id="telefone" class="inputPadrao" required placeholder="(XX) XXXXX-XXXX">
 
                 <label for="mensagem">Mensagem</label>
-                <textarea id="mensagem" cols="67" rows="10" class="inputPadrao"></textarea>
+                <textarea id="mensagem" cols="67" rows="10" class="inputPadrao" required placeholder="Digite aqui a mensagem a ser enviada"></textarea>
 
-                <div>
-                    <p>Como prefere o nosso contato?</p>
+                <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
 
                     <label for="radioEmail"><input type="radio" name="contato" id="radioEmail">Email</label>
 
                     <label for="radioTelefone"><input type="radio" name="contato" id="radioTelefone">Telefone</label>
                     
-                    <label for="radioWpp"><input type="radio" name="contato" id="radioWpp">Whatsapp</label>
+                    <label for="radioWpp"><input type="radio" name="contato" id="radioWpp" checked>Whatsapp</label>
                       
-                </div>
+                </fieldset>
 
-                <div>
-                    <p>Em qual horário prefere ser atendido?</p>
+                <fieldset>
+                    <legend>Em qual horário prefere ser atendido?</legend>
                     <select>
                         <option>Manhã</option>
                         <option>Tarde</option>
                         <option>Noite</option>
                     </select>
-                </div>
+                </fieldset>
 
-                <label for="checkEmail"><input type="checkbox" id="checkEmail">Gostaria de receber nossas novidades por email?</label>
+                <label for="checkEmail"><input type="checkbox" id="checkEmail" checked>Gostaria de receber nossas novidades por email?</label>
                 
 
                 <input type="submit" value="Enviar formulário" class="inputPadrao">
@@ -67,7 +67,7 @@
         </main>
 
         <footer>
-            <img src="../imagens/logo-branco.png">
+            <img src="../imagens/logo-branco.png" alt="Logo da Barbearia Alura">
             <p class="copyrigth">&copy; Copyrigth Barberaria Alura</p>
         </footer>
 	</body>
