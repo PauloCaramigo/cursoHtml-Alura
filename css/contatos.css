@@ -20,3 +20,26 @@ form label, form legend {
 
     width: 50%;
 }
+
+.botaoEnviar {
+    width: 40%;
+    padding: 15px 0;
+
+    background: orange;
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+
+    font-weight: bold;
+    font-size: 18px;
+
+    transition: 1s all;
+
+    cursor: pointer;
+}
+
+.botaoEnviar:hover {
+    background: darkorange;
+    transform: scale(1.10);
+}
