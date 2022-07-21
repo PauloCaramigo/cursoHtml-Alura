@@ -42,7 +42,7 @@ strong {
 }
 
 .mapa {
-	background: linear-gradient(#F8F8F8, #888888);
+	background: linear-gradient(white, #888888);
 }
 
 .mapa p {
@@ -61,6 +61,10 @@ strong {
 
 .itens:first-child {
 	font-weight: bold;
+}
+
+.itens::before {
+	content: "★";
 }
 
 .conteudoBeneficios {
